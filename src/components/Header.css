@@ -1,0 +1,21 @@
+.header{
+    background-color: #CE2829;
+    color: white;
+    position: absolute;
+    top: 0; /* Yukarı yaslar */
+    left: 0; /* Sola yaslar */
+    width: 100%;
+}
+.name1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+.baslik {
+    text-align: center;
+ 
+
+}

@@ -1,0 +1,13 @@
+.description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* left, right veya justify de olabilir */
+    line-height: 1.5;
+    margin: 5px;
+    padding: 5px;
+    gap: 0;
+ 
+ }
+ 
