@@ -1,99 +1,169 @@
 .order {
-  display: block;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
-.raido-container {
+.order h2.boyut, .hamur h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #5f5f5f;
+  font-weight: 600;
+}
+
+.radio-container {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-left: 20px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  gap: 20px;
 }
 
 .choose-size {
-  left: 0;
-  position: relative;
-  display: inline-block;
-
+  width: 50%;
 }
+
 .hamur-container {
-  display: inline-block;
+  width: 50%;
+}
+
+.hamur-select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  font-size: 16px;
+  background-color: #f9f9f9;
 }
 
 .radio-option {
   display: flex;
   align-items: center;
+  margin-bottom: 12px;
   cursor: pointer;
+  font-size: 15px;
+  color: #444;
 }
-
 
 .radio-option input[type="radio"] {
-  opacity: 0;
-  /* Görünmez yap (özel stil için) */
-  position: absolute;
-}
-
-.radio-custom {
-  width: 18px;
-  height: 18px;
-  border: 2px solid #555;
-  border-radius: 50%;
   margin-right: 10px;
-  position: relative;
+  width: 16px;
+  height: 16px;
 }
 
-.radio-option input[type="radio"]:checked+.radio-custom {
-  background-color: rgb(70, 70, 190);
-  border-color: black;
+.ek h3.ek {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #5f5f5f;
+  font-weight: 600;
+}
+
+.ekstra {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 20px;
 }
 
 .checkbox-container {
-
   display: flex;
-  /* Yan yana hizalar */
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10px;
-
-}
-.ek {
-  display: block;
-
 }
 
-/* .checkbox1 {
-    display: flex;
-    flex-direction: column;
-   
-  }
-  .checkbox2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .checkbox3 {
-    display: flex;
-    flex-direction: column;
-  } */
+.checkbox1, .checkbox2, .checkbox3 {
+  width: 30%;
+}
+
+.checkbox1 div, .checkbox2 div, .checkbox3 div {
+  margin-bottom: 12px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  font-size: 15px;
+  color: #444;
+  display: flex;
+  align-items: center;
+}
+
 .siparis {
-  display: inline-block;
-
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.eksi {
-  background-color: yellow;
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
 }
 
-.arti {
+.buttons button {
+  padding: 5px 12px;
+  border: 1px solid #e0e0e0;
   background-color: yellow;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
 }
 
 .button-hesap {
-  display: block;
-  border: 1px solid 
+  text-align: right;
+  width: 60%;
 }
-.s1 {
-  display: block;
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
-.s2 {
-  display: block;
+
+.price-label {
+  color: #5f5f5f;
+  font-size: 14px;
+}
+
+.price-value {
+  color: #5f5f5f;
+  font-size: 14px;
+}
+
+.price-value-total {
+  color: #5f5f5f;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.order-button {
+  background-color: yellow;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: yellow;
+}
+
+/* Custom radio buttons */
+.radio-custom {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
 }

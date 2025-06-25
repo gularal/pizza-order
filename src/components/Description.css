@@ -1,13 +1,33 @@
 .description {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    text-align: center; /* left, right veya justify de olabilir */
-    line-height: 1.5;
-    margin: 5px;
-    padding: 5px;
-    gap: 0;
- 
- }
- 
+  max-width: 700px;
+  margin: 80px auto 0 auto; /* Header altında ortalanmış */
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* İçeriği ortala */
+  text-align: center;      /* Yazıları ortala */
+  gap: 24px;               /* Elemanlar arası boşluk */
+  font-family: 'Arial', sans-serif;
+}
+
+.baslik {
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+  margin: 0;
+}
+
+.fiyat h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+.paragraf {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a4a4a;
+  margin: 0;
+  max-width: 650px;
+}

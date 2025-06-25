@@ -4,7 +4,7 @@ const Description = () => {
   return (
     <div className="description">
       <h1 className="baslik">Acı Pizza </h1>
-      <div className='"fiyat'>
+      <div className="fiyat">
         <h1>85.50TL</h1>
       </div>
       <div>
